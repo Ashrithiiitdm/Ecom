@@ -12,7 +12,8 @@ export const adminAuth = (req, res, next) => {
         }
 
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        if (decoded !== process.env.ADMIN_EMAIL + process.env.ADMIN_PASS) {
+        if (decoded !== process.env.ADMIN_MAIL + process.env.ADMIN_PASS) {
+        
             return res.json({
                 success: false,
                 message: 'Unauthorized access'

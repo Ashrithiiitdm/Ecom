@@ -13,7 +13,7 @@ productRouter.post('/add', adminAuth,
         { name: 'image4', maxCount: 1 }
     ]), addProduct
 );
-productRouter.post('/remove', adminAuth, addProduct);
+productRouter.post('/remove', adminAuth, removeProduct);
 productRouter.get('/product', getProduct);
 productRouter.get('/products', getProducts);
 
