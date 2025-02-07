@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Collection from './pages/Collection'
 import About from './pages/About';
 import Navbar from './components/Navbar';
+import Navbar1 from './components/Navbar1';
 import Contact from './pages/Contact';
 import Product from './pages/Product';
 import PlaceOrder from './pages/PlaceOrder';
