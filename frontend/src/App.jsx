@@ -1,18 +1,18 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Collection from './pages/Collection'
-import About from './pages/About';
-import Navbar from './components/Navbar';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home.jsx';
+import Collection from './pages/Collection.jsx';
+import About from './pages/About.jsx';
+import Navbar from './components/Navbar.jsx';
 import Navbar1 from './components/Navbar1';
-import Contact from './pages/Contact';
-import Product from './pages/Product';
-import PlaceOrder from './pages/PlaceOrder';
-import Orders from './pages/Orders';
-import Login from './pages/Login';
-import Cart from './pages/Cart';
-import Footer from './components/Footer';
-import SearchBar from './components/Searchbar';
+import Contact from './pages/Contact.jsx';
+import Product from './pages/Product.jsx';
+import PlaceOrder from './pages/PlaceOrder.jsx';
+import Orders from './pages/Orders.jsx';
+import Login from './pages/Login.jsx';
+import Cart from './pages/Cart.jsx';
+import Footer from './components/Footer.jsx';
+import SearchBar from './components/SearchBar.jsx';
 import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
