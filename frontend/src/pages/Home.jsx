@@ -1,7 +1,20 @@
-import React from 'react';
+import React from 'react'
+import Hero from "../components/Hero.jsx";
+import LatestCollection from "../components/LatestCollection.jsx";
+import BestSeller from "../components/BestSeller.jsx";
+import OurPolicy from '../components/OurPolicy.jsx';
+import NewsletterBox from '../components/NewsletterBox.jsx';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>Home</div>
-  );
-};
+    <div>
+      <Hero />
+        <LatestCollection />
+        <BestSeller />
+        <OurPolicy />
+        <NewsletterBox />
+    </div>
+  )
+}
+
+export default Home
