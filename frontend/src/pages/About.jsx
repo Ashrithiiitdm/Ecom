@@ -12,12 +12,13 @@ const About = () => {
       <div className='my-10 flex flex-col md:flex-row gap-16'>
         <img className='w-full md:max-w-[450px]' src={assets.about_img} />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium dignissimos, repudiandae soluta quis quae porro atque debitis esse voluptate! Aut, provident consequuntur ab tenetur minima dignissimos tempora sed ipsa.</p>
+          <p>This a full stack E-Commerece website developed by two CSE students</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, blanditiis quae similique officiis eos officia, illo vel natus consectetur beatae, odio voluptatibus dicta. Enim, nostrum. Eveniet iure adipisci quod aspernatur!
+            Our Details are : <br /><span>G Rajvardhan (cs22b2013@iiitdm.ac.in) </span>
+            <br /><span>G Ashrith (ashrithgandhe0629@gmail.com) </span>
           </p>
-          <b className='text-gray-800'>Our Mission</b>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolores sunt, nostrum porro quis omnis fugiat modi obcaecati facere, odit incidunt iure quasi deserunt nulla rerum voluptate ab. Suscipit, exercitationem.</p>
+          <b className='text-gray-800'>Our Intention</b>
+          <p>We made this website to develop our skills in Web Development with latest and on demand technologies</p>
 
         </div>
       </div>
@@ -28,19 +29,19 @@ const About = () => {
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5 border-gray-200'>
           <b>Quality Assurance:</b>
           <p className='text-gray-600'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit accusantium accusamus minima ducimus, officiis officia repellendus, culpa pariatur impedit blanditiis corporis animi fuga? Expedita eveniet consectetur vel, autem sequi placeat!
+            High Quality and authenticity is assured on our website
           </p>
         </div>
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5 border-gray-200'>
           <b>Convenience:</b>
           <p className='text-gray-600'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit accusantium accusamus minima ducimus, officiis officia repellendus, culpa pariatur impedit blanditiis corporis animi fuga? Expedita eveniet consectetur vel, autem sequi placeat!
+            Easy Returns, Cash on Delivery, and other services
           </p>
         </div>
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5 border-gray-200'>
           <b>Custormer Service:</b>
           <p className='text-gray-600'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit accusantium accusamus minima ducimus, officiis officia repellendus, culpa pariatur impedit blanditiis corporis animi fuga? Expedita eveniet consectetur vel, autem sequi placeat!
+            Customer Friendly service.
           </p>
         </div>
       </div>

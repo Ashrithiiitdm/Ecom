@@ -80,8 +80,8 @@ export const getProduct = async (req, res) => {
 export const getProducts = async (req, res) => {
 
     try {
-        const products = await Product.find();
-
+        const products = await Product.find({});
+        //console.log(products);
         return res.json({
             success: true,
             products

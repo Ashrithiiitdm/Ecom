@@ -21,8 +21,8 @@ const Add = ({ token }) => {
     const onSubmitHandler = async (e) => {
         e.preventDefault();
         try {
-            console.log(name, description, price, category, subCategory, bestseller, sizes);
-            console.log('Images:', image1, image2, image3, image4);
+            //console.log(name, description, price, category, subCategory, bestseller, sizes);
+            //console.log('Images:', image1, image2, image3, image4);
 
             const formData = new FormData();
             formData.append('name', name);

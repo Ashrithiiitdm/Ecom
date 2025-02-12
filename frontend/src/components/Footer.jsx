@@ -8,8 +8,8 @@ const Footer = () => {
             <div>
                 <img src={assets.logo} className='mb-5 w-32' alt=''/>
                 <p className='w-full md:w-2/3 text-gray-600'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quisquam, voluptates. Quisquam, voluptates.
+                    Full Stack E-Commerce Website made by two CSE Students
+                    <br />Using MERN Stack
                 </p>
             </div>
             <div>
@@ -24,8 +24,8 @@ const Footer = () => {
             <div>
                 <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
                 <ul className='flex flex-col gap-1 text-gray-600'>
-                    <li>+1-212-456-7890</li>
-                    <li>contact@forever.com</li>
+                    <li>cs22b2013@iiitdm.ac.in</li>
+                    <li>ashrithgandhe0629@gmail.com</li>
                 </ul>
             </div>
         </div>

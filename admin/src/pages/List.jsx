@@ -9,8 +9,8 @@ const List = ({token}) => {
     const fetchProducts = async ()=>{
         try{
             const response = await axios.get('/api/products/products');
-
-            if(response.data.success){
+            const flag = response.data.success;
+            if(flag){
                 setProducts(response.data.products);
             }
 
@@ -28,8 +28,8 @@ const List = ({token}) => {
     const removeProduct = async (id) => {
         try{
             const response = await axios.post('/api/products/remove', {id}, {headers: {token:token}});
-
-            if(response.data.success){
+            const flag = response.data.success;
+            if(flag){
                 toast.success(response.data.message);
                 await fetchProducts();
             }
