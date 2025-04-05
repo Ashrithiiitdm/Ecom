@@ -131,7 +131,7 @@ Experience the platform live at 👉 [ForeverFashion](https://foreverfrontendfas
 
 ## 🙋‍♂️ Contact
 
-Built by [Ashrith](https://github.com/Ashrithiiitdm) with ❤️
+Built by [Ashrith](https://github.com/Ashrithiiitdm) & [Rajvardhan](https://github.com/RajV95) with ❤️
 
 ---
 
